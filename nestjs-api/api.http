@@ -1,0 +1,10 @@
+GET http://localhost:3000/places?text=av itamar franco, juiz de fora, 3600
+
+
+###
+
+@originId = ChIJmRM5aqucmAARtxVfylJ8U2o
+
+@destinationId = ChIJ0QAtCg2bmAARcACOYzqfU7U
+###
+GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
