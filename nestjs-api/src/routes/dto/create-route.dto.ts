@@ -1,5 +1,5 @@
 export class CreateRouteDto {
   name: string;
-  origin_id: string;
+  source_id: string;
   destination_id: string;
 }
